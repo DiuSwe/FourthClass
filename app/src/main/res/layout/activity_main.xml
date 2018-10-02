@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="@drawable/style2">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="textEmailAddress"
+        android:text="Email"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:drawableLeft="@drawable/icon_email"
+        android:drawablePadding="8dp"
+        android:hint="Email"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="#9E9E9E"
+        android:background="@drawable/style1"
+        />
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="textPassword"
+        android:text="txtemail"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:drawableLeft="@drawable/icon_password"
+        android:drawablePadding="8dp"
+        android:hint="Password"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="#9E9E9E"
+        android:background="@drawable/style1"/>
+    <CheckBox
+        android:id="@+id/Remember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember me"
+        android:padding="5dp"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/bSignin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+
+        android:text="SIGN in"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/buttonstyle"
+        android:textColor="#fff"
+       style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+
+    <TextView
+        android:id="@+id/txtForgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgotten password"
+        android:padding="5dp"
+        android:layout_margin="5dp"/>
+
+
+
+
+    <TextView
+        android:id="@+id/txtSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextSignUp"
+        android:padding="5dp"
+        android:layout_margin="5dp"/>
+
+
+
+
+</LinearLayout>
+</RelativeLayout>
